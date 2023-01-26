@@ -1,10 +1,18 @@
 const fs = require('fs');
+const inquirer = require('inquirer');
 const bookends = require('./bookends');
 
 const Engineer = require('./engineer');
 
 
 const index = './index.html';
+
+const bootSetup = [
+    {
+        type: '',
+        name: ''
+    },
+]
 
 engi1 = new Engineer('Logan', 3, 'codeDevLogan@gmail.com', 'codeDevLogan');
 

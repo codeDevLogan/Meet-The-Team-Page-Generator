@@ -1,6 +1,6 @@
 {
   "name": "Generator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -12,6 +12,9 @@
   },
   "author": "Logan Peterson",
   "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
   "devDependencies": {
     "jest": "^29.4.0"
   }
