@@ -1,6 +1,6 @@
 {
-  "name": "Generator",
-  "version": "0.1.0",
+  "name": "Meet the Team Generator",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "jest --verbose test/*"
+    "test": "jest --verbose tests/*"
   },
   "author": "Logan Peterson",
   "license": "ISC",
